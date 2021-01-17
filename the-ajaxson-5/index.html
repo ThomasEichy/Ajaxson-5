@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta backg>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>The AJAXson 5</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="request-gif.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+</head>
+    
+<body class="container">
+    <h1>The AJAXson 5</h1>
+
+    <form id="form-gif-request" class="form-group" />
+        <label for="firstInput">What kind of Jackson 5 related gif do you want?</label>
+        <input class="form-control" type="text" id="firstInput" name="tag"/>
+    
+    <br><br><label for="secondInput">Prove you are not a robot by answering this riddle:</label><label>&nbsp _______ jacksons are better than 1.</label><br>
+        <input class="form-control" name="test" type="text" id="secondInput"/><br>
+        
+        <input type="submit" value="Get my Gif!" class="btn btn-dark" id="testButton" />
+    </form>
+    
+    <div class="text-center">
+    <img id="gif" src="" hidden="true"  class="rounded img-fluid "/>
+    <p id="feedback" hidden="true`"></p>
+    </div>
+    
+    <script src="request-gif.js"></script>
+</body>
+</html>
